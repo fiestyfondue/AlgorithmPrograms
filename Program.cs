@@ -7,7 +7,7 @@ namespace Algorithm
         static void Main(string[] args)
         {
             Console.WriteLine("Algorithm problems");
-            InsertionSort.Sorting();
+            BubbleSort.Sorting();
             Console.ReadLine();
 
         }
