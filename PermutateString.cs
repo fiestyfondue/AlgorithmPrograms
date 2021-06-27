@@ -23,9 +23,9 @@ namespace Algorithm
             }
         }
         
-        /// <param name="inputword">input sting</param>
-        /// <param name="l">left index</param>
-        /// <param name="r">right index</param>
+        // <param name="inputword">input sting</param>
+        // <param name="l">left index</param>
+        // <param name="r">right index</param>
         public static void PermuteIterative(string inputword, int l, int r)   // Permutation of string using iterative method 
         {
             if (l == r)
