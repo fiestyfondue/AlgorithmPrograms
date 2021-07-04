@@ -12,6 +12,7 @@ namespace Algorithm
             Console.WriteLine("Press 3 for Insertion sort to sort a word list");
             Console.WriteLine("Press 4 for Bubble sort to sort a Integer Array");
             Console.WriteLine("Press 5 for Merge sort to sort a list of Strings");
+            Console.WriteLine("Press 6 for Anagram");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -38,8 +39,12 @@ namespace Algorithm
                     //Merge sort 
                     MergeSort.Sorting();
                     break;
+                case 6:
+                    //Anagram
+                    Anagram.CheckAnagram();
+                    break;
                 default:
-                    Console.WriteLine("invalid selection made!!");
+                    Console.WriteLine("invalid selection is being made here !!");
                     Console.WriteLine("Enter a valid option: ");
                     break;
             }
