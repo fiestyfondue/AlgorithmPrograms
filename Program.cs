@@ -13,6 +13,7 @@ namespace Algorithm
             Console.WriteLine("Press 4 for Bubble sort to sort a Integer Array");
             Console.WriteLine("Press 5 for Merge sort to sort a list of Strings");
             Console.WriteLine("Press 6 for Anagram");
+            Console.WriteLine("Press 7 for PrimeNo");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -42,6 +43,10 @@ namespace Algorithm
                 case 6:
                     //Anagram
                     Anagram.CheckAnagram();
+                    break;
+                case 7:
+                    //PrimeNo
+                    PrimeNo.Print();
                     break;
                 default:
                     Console.WriteLine("invalid selection is being made here !!");
