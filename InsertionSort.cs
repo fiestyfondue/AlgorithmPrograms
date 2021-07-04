@@ -17,7 +17,7 @@ namespace Algorithm
         }
         
         
-        private static void Display(string[] Array)    // method to Display an array 
+        public static void Display(string[] Array)    // method to Display an array 
         {                                                   // <param name="sortedArray"></param>
             foreach (string item in Array)
             {

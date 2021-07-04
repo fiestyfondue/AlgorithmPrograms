@@ -8,7 +8,7 @@ namespace Algorithm
     {
         internal static void Sorting()
         {
-            int[] array = { 20, 14, 3, 7, 2 };
+            int[] array = { 20, 4, 9, 6, 2 };
             Console.WriteLine("Unsorted array");
             Display(array);
             int[] sortedArray = Sort(array);

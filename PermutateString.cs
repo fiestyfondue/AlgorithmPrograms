@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Algorithm
 {
-    class PermutateString
+    public class PermutateString
     {
         public static void PermuteRecursive(string inputWord, string ans)
         {
